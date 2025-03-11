@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TensorTribe</title>
+    <link rel="icon" href="images/Logos/Event_logo(Black)[PNG].png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Playhost - Game Hosting Website Template" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="SRBThemes" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" />
+    <!-- ALL MIN CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- File Normalization -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <style>
+      #space-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Keeps it behind the content */
+    pointer-events: none; /* Prevents interactions with background */
+}
+.reveal-section {
+        background-color: #111;            /* Dark background for contrast */
+        padding: 150px 0;                 /* More padding for visibility */
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+
+    .reveal-text {
+        font-size: 180px;                /* Large font for impact */
+        font-weight: bold;
+        text-transform: uppercase;
+        color: transparent !important; 
+        -webkit-text-stroke: 2px #d4d4d4;   /* Outline color and width */
+        letter-spacing: 12px;
+        display: block;
+        position: relative;
+        transition: all 0.5s ease-out; 
+        z-index: 2;  /* Smooth transition for hover */
+    }
+    /* Particle Background */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+    </style>
+
+</head>
+
+<body class="dark-scheme">
+           
+    <div id="wrapper">
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <!-- header begin -->
+        <header class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img class="logo-main" src="images/Logos/Event_logo(PNG)1.png
+                                            " alt="" >
+                                            <img class="logo-mobile" src="images/logo-mobile.png" alt="" >
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="about.html">About Us</a></li>
+                                    
+                                    <li><a class="menu-item" href="Events.html">Events</a></li>
+                                    <li><a class="menu-item" href="contact.html">Contact Us</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="#" class="btn-main btn-line"><span>Register Now</span></a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+
+            <div id="top"></div>
+
+            <section class="jarallax">
+                <div id="space-background"></div>
+                <img style="opacity: 0.4;" src="images/background/bg-grid-2.webp" class="jarallax-img" alt="">
+                <div class="de-gradient-edge-bottom"></div>
+                <div class="slider-item">
+                    <div class="container">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-6 mb-sm-30">
+                                <div class="subtitle blink mb-4">Zetronica College Fest 2025</div>
+                                <h2 class="slider-title text-uppercase mb-1">Experience The Ultimate Tech & Culture Extravaganza!</h2>
+                                <div class="spacer-10"></div>
+                                <a class="btn-main mb10" href="pricing-table-one.html"><span>Download Brochure</span></a>
+                            </div>
+                            <div class="col-lg-6 position-relative">
+                                <img id="logo" src="images/Logos/TENSOR_LOGO.png" class="img-fluid rounded-20" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- New Text Reveal Section -->
+            <section class="reveal-section" style="perspective: 1000px; position: relative; overflow: hidden;">
+                <!-- Background Image -->
+                <div id="particles-js"></div>
+                
+                <!-- Hollow Text -->
+                <h1 class="reveal-text">ZETRONICA</h1>
+            </section>
+            <audio autoplay id="bg-audio" src="images/background/zetronica.mp3" muted></audio>
+            
+            
+            
+            
+            <!-- No-Bottom Section (existing) -->
+            <section class="no-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="subtitle wow fadeInUp mb-3">Incredibly features</div>
+                            <h2 class="wow fadeInUp mb20" data-wow-delay=".2s"><span class="text-gradient">Explore.</span> Compete. Learn.</h2>
+                        </div>
+                        <div class="col-lg-6"></div>
+            
+                        <div class="col-lg-3 col-md-6 mb-sm-20 wow fadeInRight" data-wow-delay="0s">
+                            <div>
+                                <img src="images/icons/1.png" class="mb20" alt="">
+                                <h4>Fests</h4>
+                                <p>A celebration of technology, innovation, and unforgettable experiences.</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-6 mb-sm-20 wow fadeInRight" data-wow-delay=".2s">
+                            <div>
+                                <img src="images/icons/2.png" class="mb20" alt="">
+                                <h4>Hackathons</h4>
+                                <p>Unleashing creativity and brilliance through code and competition.</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-6 mb-sm-20 wow fadeInRight" data-wow-delay=".4s">
+                            <div>
+                                <img src="images/icons/3.png" class="mb20" alt="">
+                                <h4>Seminars</h4>
+                                <p>Inspiring insights and ideas from tech visionaries.</p>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-6 mb-sm-20 wow fadeInRight" data-wow-delay=".6s">
+                            <div>
+                                <img src="images/icons/4.png" class="mb20" alt="">
+                                <h4>Event gallery</h4>
+                                <p>Capturing unforgettable moments that define innovation and excitement.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="jarallax">
+                <img src="images/background/space.webp" class="jarallax-img" alt="">
+                <div class="de-gradient-edge-top"></div>
+                <div class="de-gradient-edge-bottom"></div>
+                <div class="container z-1000">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="subtitle wow fadeInUp mb-3">Most complete</div>
+                            <h2 class="wow fadeInUp mb20" data-wow-delay=".2s">Popular Games</h2>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <a class="btn-main mb-sm-30" href="game-server-1.html"><span>View all games</span></a>
+                        </div>
+                    </div>
+                    <div class="row g-4 sequence">
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Thunder and City</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/1.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Mystic Racing Z</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/2.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Silent Wrath</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/3.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Funk Dungeon</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/4.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Galactic Odyssey</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/5.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Warfare Legends</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/6.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Raceway Revolution</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/7.webp" class="img-fluid " alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 gallery-item sandbox">
+                            <div class="de-item wow">
+                                <div class="d-overlay">
+                                    <div class="d-label">
+                                        20% OFF
+                                    </div>
+                                    <div class="d-text">
+                                        <h4>Starborne Odyssey</h4>
+                                        <p class="d-price">Starting at <span class="price">$14.99</span></p>
+                                        <a class="btn-main btn-fullwidth" href="pricing-table-one.html"><span>Order Now</span></a>
+                                    </div>
+                                </div>
+                                <img src="images/covers/8.webp" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>   
+            
+             <section class="no-bottom">
+                <div class="container">
+                    <div class="row align-items-center gx-5">
+                        <div class="col-lg-6">
+                            <img src="images/misc/server.webp" class="img-fluid mb-sm-30 wow fadeIn" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="subtitle wow fadeInUp mb-3">Digital Nexus</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><span class="text-gradient">Zetronica:</span> The Tech Revolution Begins Here</h2>
+                            <p class="wow fadeInUp">Our collection of game server hosting options encompasses the most in-demand platforms of today. Within our offerings, you'll discover an extensive array of specialized tools and features tailored to each game, all of which we diligently keep up to date in sync with game and mod updates.</p>
+
+                            <ul class="de-server s2 wow fadeInUp">
+                                <li>London, England</li>
+                                <li>Paris, France</li>
+                                <li>Frankut, Germany</li>
+                                <li>Amsterdam, Netherlands</li>
+                                <li>Stockholm, Sweden</li>
+                                <li>Helsinki, Finland</li>
+                                <li>Los Angeles, USA</li>
+                                <li><a href="locations.html">View all available servers</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                            <div class="subtitle wow fadeInUp mb-3">Payment Methods</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">We accept</h2>
+                        </div>
+                        <div class="col-lg-8 wow fadeInRight">
+                            <div class="row g-4">
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/visa.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/mastercard.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/paypal.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/skrill.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/jcb.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-4">
+                                    <div class="p-2 rounded-20" data-bgcolor="rgba(255, 255, 255, .05)">
+                                        <img src="images/payments/american-express.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <!-- content close -->
+        
+        <!-- ` begin -->
+        <footer class="jarallax">
+            <img src="images/background/4.webp" class="jarallax-img" alt="">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-4">
+                        <img src="images/Logos/TENSOR_LOGO.png" alt="" >
+                        <div class="spacer-20"></div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Non Tech Events</h5>
+                                    <ul>
+                                        <li><a href="#">Startup Pitch</a></li>
+                                        <li><a href="#">Pixora</a></li>
+                                        <li><a href="#">Brainy Brunch</a></li>
+                                        <li><a href="#">Bottle Royale</a></li>
+                                        <li><a href="#">War Of Glory</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Tech Events</h5>
+                                    <ul>
+                                        <li><a href="#">InnoVista</a></li>
+                                        <li><a href="#">Code & Conquer</a></li>
+                                        <li><a href="#">IT Quiz</a></li>
+                                        <li><a href="#">WebMorph</a></li>
+                                        <li><a href="#">IT Debate</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <h5>Contact Us</h5>
+                            
+                            <div class="spacer-10"></div>
+                            <a href="https://g.co/kgs/GLUVBNm"><i class="fa-solid fa-location-dot"></i>14/5, Hesarghatta Rd, Chikkasandra, Jalahalli West, Bengaluru, Karnataka 560057</a>
+                            <div class="spacer-30"></div>
+                            <div class="widget">
+                                <h5>Follow Us on</h5>
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                           Copyright 2024 - Playhost by SRBThemes
+                        </div>
+                        <div class="col-lg-6 col-sm-6 text-lg-end text-sm-start">
+                            <ul class="menu-simple">
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+        
+       
+  
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/countdown-custom.js"></script>
+    <script src="js/custom-marquee.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+    <script>
+
+      // Create scene, camera, and renderer
+      let scene = new THREE.Scene();
+      let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      let renderer = new THREE.WebGLRenderer({ alpha: true });
+      
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.getElementById('space-background').appendChild(renderer.domElement);
+  
+      // Create stars
+      let starsGeometry = new THREE.BufferGeometry();
+      let starsVertices = [];
+  
+      for (let i = 0; i < 6000; i++) {
+          let x = (Math.random() - 0.5) * 2000;
+          let y = (Math.random() - 0.5) * 2000;
+          let z = (Math.random() - 0.5) * 2000;
+          starsVertices.push(x, y, z);
+      }
+  
+      starsGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starsVertices, 3));
+      let starsMaterial = new THREE.PointsMaterial({ color: 0xffffff, size: 1 });
+      let starField = new THREE.Points(starsGeometry, starsMaterial);
+      scene.add(starField);
+  
+      // Set camera position
+      camera.position.z = 500;
+  
+      // Animation loop
+      function animate() {
+          requestAnimationFrame(animate);
+          starField.rotation.y += 0.0006; // Rotate stars slowly
+          renderer.render(scene, camera);
+      }
+      animate();
+  
+      // Responsive canvas
+      window.addEventListener('resize', function() {
+          camera.aspect = window.innerWidth / window.innerHeight;
+          camera.updateProjectionMatrix();
+          renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+
+
+    //   new trying 
+    document.addEventListener("DOMContentLoaded", () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Responsive settings using matchMedia
+    ScrollTrigger.matchMedia({
+        // For desktop
+        "(min-width: 768px)": function() {
+            gsap.fromTo(".reveal-text",
+                {
+                    opacity: 0,
+                    y: 100,
+                    rotateY: 90,
+                    scale: 0.8,
+                    transformOrigin: "center center"
+                },
+                {
+                    scrollTrigger: {
+                        trigger: ".reveal-section",
+                        start: "top 80%",
+                        end: "bottom 60%",
+                        scrub: 1,
+                        toggleActions: "play none none reverse",
+                        markers: false
+                    },
+                    opacity: 1,
+                    y: 0,
+                    rotateY: 0,
+                    scale: 1,
+                    duration: 1.5,
+                    ease: "expo.out"
+                });
+        },
+
+        // For mobile
+        "(max-width: 767px)": function() {
+            gsap.fromTo(".reveal-text",
+                {
+                    opacity: 0,
+                    y: 50,  // Less movement for better UX
+                    rotateY: 60,  // Slightly reduced rotation
+                    scale: 0.9
+                },
+                {
+                    scrollTrigger: {
+                        trigger: ".reveal-section",
+                        start: "top 90%",  // Trigger slightly later
+                        end: "bottom 70%",
+                        scrub: 0.5,  // Smoother effect on mobile
+                        toggleActions: "play none none reverse",
+                        markers: false
+                    },
+                    opacity: 1,
+                    y: 0,
+                    rotateY: 0,
+                    scale: 1,
+                    duration: 1.2,
+                    ease: "power2.out"
+                });
+        }
+    });
+});
+
+
+    // particle
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 180,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false
+            },
+            "size": {
+                "value": 3,
+                "random": true
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 2,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                }
+            },
+            "modes": {
+                "repulse": {
+                    "distance": 100,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                }
+            }
+        },
+        "retina_detect": true
+    });
+
+    //  Audio Playback Control
+    const bgAudio = document.getElementById("bg-audio");
+    const revealSection = document.querySelector(".reveal-section");
+
+    // Start playing muted to bypass restrictions
+    bgAudio.play().catch(error => console.log("Autoplay failed:", error));
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                bgAudio.muted = false;   // Unmute and play
+                bgAudio.play();
+            } else {
+                bgAudio.pause();          // Pause when out of view
+                bgAudio.currentTime = 0;  // Reset time
+                bgAudio.muted = true;     // Mute again to keep autoplay working
+            }
+        });
+    }, { threshold: 0.5 });
+
+    if (revealSection) {
+        observer.observe(revealSection);
+    }
+
+
+  </script>
+
+
+</body>
+
+
+</html>
